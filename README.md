@@ -5,6 +5,10 @@ This is a fork of the [original project](https://code.google.com/p/sub3dtool/), 
 
 This fork uses [this getopt port](http://www.codeproject.com/Articles/157001/Full-getopt-Port-for-Unicode-and-Multibyte-Microso) with few minor modifications to be used in this project.
 
+## Downloading the binary
+
+The latest version can be found [here](https://github.com/TheZoc/sub3dtool/releases).
+
 ## Compiling
 
 To compile from source code, clone this repository and compile it.
