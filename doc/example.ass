@@ -1,0 +1,20 @@
+[Script Info]
+Title: Mockup Subtitle
+Original Script: Author
+Update Details: None
+ScriptType: v4.00+
+Collisions: Normal
+PlayResY: 0
+PlayResX: 1080
+PlayDepth: 32
+Timer: 100.0000
+
+[v4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColor, BackColour, ScaleX, ScaleY, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR
+Style: SubL, Arial, 45, &HFFFFFF, &HFFFFFF, &HFFFFFF, &H000000, 50, 100, 1, 1, 1, 2, 0, 540
+Style: SubR, Arial, 45, &HFFFFFF, &HFFFFFF, &HFFFFFF, &H000000, 50, 100, 1, 1, 1, 2, 540, 0
+
+[Events]
+Format: Layer, Start, End, Style, Text
+Dialogue: 0, 0:00:00.00, 0:01:00.00, SubL, Test subtitle
+Dialogue: 0, 0:00:00.00, 0:01:00.00, SubR, Test subtitle
