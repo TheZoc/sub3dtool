@@ -224,7 +224,7 @@ ZnFile * znfile_open (const char * path)
 	//errno_t err =
 	fopen_s(&f, path, "rb");
 #else
-	file = fopen(output, "w");
+	f = fopen(path, "rb");
 #endif // WIN32
 
 	if (f == NULL)
