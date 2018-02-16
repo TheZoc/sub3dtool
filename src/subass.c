@@ -576,21 +576,25 @@ void znsub_ass_parse_styles (ZnsubASS * sub, ZnFile * file)
 						n = len >= ZNSUB_ASS_STYLE_COLORSZ ?
 							ZNSUB_ASS_STYLE_COLORSZ -1 : len;
 						strncpy (style->primary_colour, ptr, n);
+						style->primary_colour[n] = '\0';
 						break;
 					case 5:
 						n = len >= ZNSUB_ASS_STYLE_COLORSZ ?
 							ZNSUB_ASS_STYLE_COLORSZ -1 : len;
 						strncpy (style->secondary_colour, ptr, n);
+						style->secondary_colour[n] = '\0';
 						break;
 					case 6:
 						n = len >= ZNSUB_ASS_STYLE_COLORSZ ?
 							ZNSUB_ASS_STYLE_COLORSZ -1 : len;
 						strncpy (style->outline_colour, ptr, n);
+						style->outline_colour[n] = '\0';
 						break;
 					case 7:
 						n = len >= ZNSUB_ASS_STYLE_COLORSZ ?
 							ZNSUB_ASS_STYLE_COLORSZ -1 : len;
 						strncpy (style->back_colour, ptr, n);
+						style->back_colour[n] = '\0';
 						break;
 					case 8:
 						n = strtol (ptr, NULL, 0);
