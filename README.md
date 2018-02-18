@@ -1,5 +1,5 @@
 # Sub3dtool
-Convert subtitle to 3D (ASS Formar) to use with VLC or MPlayer
+Convert subtitle to 3D (ASS Format) to use with VLC or MPlayer
 
 This is a fork of the [original project](https://code.google.com/p/sub3dtool/), with fixes so it runs on Windows.
 
